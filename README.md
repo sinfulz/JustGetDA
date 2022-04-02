@@ -2,9 +2,8 @@
 JustGetDA, a cheat sheet which will aid you through internal network &amp; red team engagements.
 
 # AD Mindmap
-Credit:
-
-mayfly (@M4yFly)
+![](AD_Pentest_Mindmap.png)
+Credit: mayfly (@M4yFly)
 
 ##
 
