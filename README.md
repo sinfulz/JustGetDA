@@ -1,6 +1,15 @@
 # JustGetDA
 JustGetDA, a cheat sheet which will aid you through internal network &amp; red team engagements.
 
+# AD Mindmap
+Credit:
+
+mayfly (@M4yFly)
+
+##
+
+# Privilege Escalations
+
 The below privilege escalations are inspired from: https://github.com/cfalta/MicrosoftWontFixList
 
 # Local Privilege Escalation:
