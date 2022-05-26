@@ -1,7 +1,11 @@
 # JustGetDA
+
+![](https://memegenerator.net/img/instances/73688449.jpg)
+
 JustGetDA, a cheat sheet which will aid you through internal network &amp; red team engagements.
 
 # AD Mindmap
+(Click on the image for a larger image).
 ![](pentest_ad.png)
 Credit: mayfly (@M4yFly) & viking (@Vikingfr)
 
@@ -31,6 +35,11 @@ KrbRelay: https://github.com/cube0x0/KrbRelay
 ##
   
 # My Internal Pentest Methodology 
+  
+## Physical Access (not always in-scope / part of a Internal Pentest)
+  One can get into a workstation / server via a few methods:
+  - Offline NT Password & Registry Editor / chntpw
+  - Kon-Boot
   
 ## External Reconnaissance
   A client may allow you onto the internal network on a Kali VM positioned somewhere within their network. Without domain credentials, there is not much one can do so tools like the following are useful to gather usernames/email addresses:
