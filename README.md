@@ -40,7 +40,32 @@ dig @10.10.10.10 _ldap._tcp.dc._msdcs.domain.com.au SRV
 How to find PDC:
 dig @10.10.10.10 _ldap._tcp.pdc._msdcs.domain.com.au SRV
   ```
-  
+# Tools I use:
+
+Password Auditing:
+- DPAT
+
+Domain Auditing:
+- WinPwn
+- ADRecon (WinPwn has ADRecon features inside of it)
+- Group3r
+- Snaffler
+
+Password Spraying:
+- Spray
+- TheSprayer
+- DomainPasswordSpray
+- Kerbrute
+- Metasploit
+- CrackMapExec
+- CredNinja
+
+Relaying:
+- Responder
+- mitm6
+- KrbRelayUp
+- NTLMRelayX
+
 ##
   
 # My Internal Pentest Methodology 
