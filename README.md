@@ -32,6 +32,15 @@ The below privilege escalations are inspired from: https://github.com/cfalta/Mic
 # Misc
 KrbRelay: https://github.com/cube0x0/KrbRelay
   
+# How to get Domain Controller (including the Primary Domain Controller) info in `dig`.
+  ```
+  How to find DC: 
+dig @10.10.10.10 _ldap._tcp.dc._msdcs.domain.com.au SRV
+
+How to find PDC:
+dig @10.10.10.10 _ldap._tcp.pdc._msdcs.domain.com.au SRV
+  ```
+  
 ##
   
 # My Internal Pentest Methodology 
