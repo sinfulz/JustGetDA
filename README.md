@@ -61,10 +61,20 @@ Password Spraying:
 - CredNinja
 
 Relaying:
-- Responder
-- mitm6
+- KrbRelay
 - KrbRelayUp
 - NTLMRelayX
+
+MiTM:
+- Responder
+- mitm6
+
+Coercion:
+-dementor.py
+- DFScoerce
+- PetitPotam
+- ShadowCoerce
+- Coercer
 
 ##
   
