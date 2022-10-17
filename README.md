@@ -30,7 +30,7 @@ The below privilege escalations are inspired from: https://github.com/cfalta/Mic
 - NoPac: https://github.com/cube0x0/noPac
 
 # Misc
-KrbRelay: https://github.com/cube0x0/KrbRelay
+certutil -config - -ping
   
 # How to get Domain Controller (including the Primary Domain Controller) info in `dig`.
   ```
@@ -116,3 +116,57 @@ Coercion:
 
 < Adding more fine grained methods soon >
  
+ 
+ # To be modified #
+
+
+0. Domain Enumeration:
+- enum4linux
+- ADRecon
+- PingCastle
+- BloodHound
+
+1. Sniffing Traffic
+- Responder
+	- NTLMRelayX
+- Invoke-Inveigh
+- Pretender
+- mitm6
+
+2. Password spraying
+(internally):
+- crackmapexec
+- smb_login (from Metasploit)
+- kerbrute
+- TheSprayer
+- DomainPasswordSpray? (PS1 script)
+- and many more
+(externally):
+- ruler
+- SprayingToolkit (owa.py, atomizer.py)
+- MailSniper 
+- use auxiliary/scanner/http/owa_login
+- use auxiliary/scanner/http/owa_ews_login
+- DomainPasswordSpray?
+
+
+3. Enumeration
+- PowerView
+- SharpHound
+- powerview.py
+- pywerview
+- BloodHound
+- SharpHound
+- Bloodhound.py
+- BloodHound.py-Kerberos
+
+
+
+
+10. DCSync/Dump NTDS
+- secretsdump
+- VSSAdmin
+- ntdsutil.exe
+- CME
+- mimikatz
+- 
