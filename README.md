@@ -49,7 +49,8 @@ Domain Auditing:
 - WinPwn
 - ADRecon (WinPwn has ADRecon features inside of it)
 - Group3r
-- Snaffler
+- Snaffler (Windows)
+- MANSPIDER (Linux)
 
 Password Spraying:
 - Spray
@@ -68,6 +69,8 @@ Relaying:
 MiTM:
 - Responder
 - mitm6
+- RITM
+- RoastInTheMiddle
 
 Coercion:
 -dementor.py
