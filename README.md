@@ -52,7 +52,15 @@ Domain Auditing:
 - Snaffler (Windows)
 - MANSPIDER (Linux)
 
-Password Spraying:
+Password Spraying externally:
+- CredMaster
+- adfsbrute
+- ADFSpray
+- o365spray
+- MSOLSpray
+- Spray365
+
+Password Spraying internally:
 - Spray
 - TheSprayer
 - DomainPasswordSpray
